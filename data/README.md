@@ -6,7 +6,7 @@ The data files contain training examples for each log type (i.e. Vp, Rhob, Gr, R
   3. Min-max normalization to the range [-0.9, 0.9]   
   (To learn more about normalization: http://www.faqs.org/faqs/ai-faq/neural-nets/part2/section-16.html) 
 
-## Augmentation techniques include:
+## Augmentation applied to the data include:
   1. Doubling the number of examples by flipping the logs
   2. A window of length 64 points and stride of 32 points to extract examples
 
