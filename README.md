@@ -3,7 +3,7 @@ A Clockwork RNN model to train on compressional velocity (Vp), formation density
 
 The clockwork RNN model is a tensorflow implementation of Koutnik et al., 2014. 
 
-# This a modified implementation of tomrunia/ClockworkRNN.
+## This a modified implementation of tomrunia/ClockworkRNN.
 The modifications include:
   1. Fixed mask of the hidden layer
   2. Added correct selection of block-rows of the hidden layer for evaluation
